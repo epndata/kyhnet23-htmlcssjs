@@ -1,0 +1,13 @@
+Ska endast göras en gång när du skapar ett helt nytt projekt
+------------------------------------------------------------------------
+git init
+git remote add origin https://github.com/epndata/kyhnet23-htmlcssjs.git
+
+
+
+
+Ska göras varje gång du har gjort en ändring och ska spara
+------------------------------------------------------------------------
+git add .
+git commit -m "lektion 1 - grunderna i html och css"
+git push origin main
