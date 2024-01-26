@@ -1,0 +1,20 @@
+$color-yellow: #F9D783;
+$color-dark: #191919;
+$color-red:#F94D1C;
+$color-white: #ffffff;
+
+
+
+@mixin set-dynamic-colors($bgcolor, $procent: 50%, $lightness: 52) {
+    background-color: $bgcolor;
+    color: set-dynamic-color($bgcolor, $procent, $lightness)
+}
+
+@function set-dynamic-color($color, $procent: 50%, $lightness: 52) {
+    @if (lightness($color) > $lightness) {
+        @return darken($color, $procent);
+    }
+    @else {
+        @return lighten($color, $procent);
+    }
+}
