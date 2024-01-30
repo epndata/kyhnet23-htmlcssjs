@@ -1,0 +1,86 @@
+/* 
+    FLEXBOX
+
+    display: flex;
+
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+
+    flex: 1;
+    flex-direction row;
+    flex-direction column;
+
+
+*/
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.fa-bars {
+    font-size: 32px;
+}
+
+.logo {
+    flex: 1;
+}
+.menu-bars {
+    text-align: right;
+    flex: 1;
+}
+.menu-links {
+    display: none;
+    text-align: right;
+    flex: 1;
+}
+.menu-links a {
+    margin-left: 20px;
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .menu-bars {
+        display: none;
+    }
+
+    .menu-links {
+        display: inline-block;
+    }   
+
+}
