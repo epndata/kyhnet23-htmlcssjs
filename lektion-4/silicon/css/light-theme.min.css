@@ -188,3 +188,22 @@ display-6 {
   color: #0B0F19;
   font-family: "Manrope", sans-serif;
 }
+
+.button-primary {
+  display: flex;
+  padding: 11px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 22.4px */
+  color: #FFFFFF;
+  background: #6366F1;
+  border: none;
+}
