@@ -1,0 +1,66 @@
+/* general */
+* { margin: 0; box-sizing: border-box; }
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+.box {
+    padding: 15px;
+    border-bottom: 1px solid white;
+    color: whitesmoke;
+}
+
+/* mobile */
+#mobile-menu {
+    background-color: black;
+    color: white;
+}
+
+.menu-collapse {
+    text-align: right;
+
+}
+
+#mobile-menu .menu-collapse .btn-close {
+    color: white;
+    padding: 1rem;
+
+}
+#mobile-menu .menu-collapse .btn-close:hover {
+    color: red;
+}
+
+
+
+nav {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-collapse-menu {
+    font-size: 32px;
+    text-align: right;
+}
+
+
+
+/* tablets */
+@media (min-width: 768px) {
+
+}
+
+
+
+/* large screens */
+@media (min-width: 992px) {
+    #mobile-menu {
+        display: none;
+    }
+}
