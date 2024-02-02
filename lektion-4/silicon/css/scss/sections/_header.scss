@@ -1,4 +1,29 @@
-.theme-switch {
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
 
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
 
+    img {
+        flex: 1;
+    }
+
+    nav {
+        flex: 4;
+        display: flex;
+        gap: 20px;
+    }
+
+    .theme-switch {
+        flex: 1;
+    }
+
+    button {
+        flex: 1;
+    }
 }

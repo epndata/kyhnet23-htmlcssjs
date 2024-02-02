@@ -7,7 +7,7 @@ html, body {
   font-size: 16px;
 }
 
-body {
+.wrapper {
   display: flex;
   flex-direction: column;
   height: 100dvh;
@@ -35,7 +35,7 @@ a:hover {
   font-weight: 600;
   color: #33354D;
   font-family: "Manrope", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   transition: color 0.25s ease-in-out;
 }
@@ -208,27 +208,32 @@ display-6 {
   border: none;
 }
 
-.switch {
+.theme-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.theme-switch .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
 }
-.switch input {
+.theme-switch .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
-.switch input:checked + .slider {
+.theme-switch .switch input:checked + .slider {
   background-color: #6366F1;
 }
-.switch input:focus + .slider {
+.theme-switch .switch input:focus + .slider {
   box-shadow: 0 0 1px #6366F1;
 }
-.switch input:checked + .slider:before {
+.theme-switch .switch input:checked + .slider:before {
   transform: translateX(26px);
 }
-.switch .slider {
+.theme-switch .switch .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -238,7 +243,7 @@ display-6 {
   background-color: #ccc;
   transition: 0.4s;
 }
-.switch .slider:before {
+.theme-switch .switch .slider:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -248,9 +253,34 @@ display-6 {
   background-color: white;
   transition: 0.4s;
 }
-.switch .slider.round {
+.theme-switch .switch .slider.round {
   border-radius: 34px;
 }
-.switch .slider.round:before {
+.theme-switch .switch .slider.round:before {
   border-radius: 50%;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+header img {
+  flex: 1;
+}
+header nav {
+  flex: 4;
+  display: flex;
+  gap: 20px;
+}
+header .theme-switch {
+  flex: 1;
+}
+header button {
+  flex: 1;
 }

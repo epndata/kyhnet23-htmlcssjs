@@ -12,29 +12,36 @@
 </head>
 <body>
     
-    <header>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <img src="images/logo/silicon-logo-light_theme.svg" alt="">
+            
+                <nav>
+                    <a class="nav-link" href="#">Overview</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+        
+                <div class="theme-switch">
+                    <label for="theme-switch-mode">Light</label>
+                    <label class="switch">
+                        <input id="theme-switch-mode" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <label for="theme-switch-mode">Dark</label>
+                </div>
+        
+                <button class="button-primary"><i class="fa-regular fa-user"></i>Sign In / Up</button>    
+            </div>
+        </header>
+    
+        <main>
 
-        <img src="images/logo/silicon-logo-light_theme.svg" alt="">
-        <nav>
-            <a class="nav-link" href="#">Overview</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">News</a>
-            <a class="nav-link" href="#">Contact</a>
-        </nav>
+        </main>
+        <footer>footer</footer>
+    </div>
 
-        <div class="theme-switch">
-            <label class="switch">
-                <input type="checkbox" checked>
-                <span class="slider round"></span>
-            </label>
-        </div>
-
-        <button class="button-primary"><i class="fa-regular fa-user"></i>Sign In / Up</button>
-
-    </header>
-
-    <main></main>
-    <footer>footer</footer>
-    <div style="height: 2000px;"></div>
 </body>
 </html>
