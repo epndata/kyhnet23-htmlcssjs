@@ -1,10 +1,10 @@
 header {
-    
+    padding: 1rem 0;
+
     .container {
         display: grid;
         align-items: center;
 
-        gap: 50px;
         grid-template-columns: 1fr auto;
         grid-template-areas:    "logo mobile"
                                 "nav nav";
@@ -22,10 +22,14 @@ header {
         #main-navbar {
             grid-area: nav;
             // display: none;
+            height: 0%;
+            overflow: hidden;
             gap: 20px;
 
             @include lg {
+                height: 100%;
                 display: flex;
+                align-items: center;
             }
         }
     
@@ -47,7 +51,7 @@ header {
             }
         }
     
-        #mobile-menu {
+        #mobile-button {
             grid-area: mobile;
             display: block;
 

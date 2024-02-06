@@ -270,10 +270,12 @@ a:hover {
   border-radius: 50%;
 }
 
+header {
+  padding: 1rem 0;
+}
 header .container {
   display: grid;
   align-items: center;
-  gap: 50px;
   grid-template-columns: 1fr auto;
   grid-template-areas: "logo mobile" "nav nav";
 }
@@ -289,11 +291,15 @@ header .container #logo {
 }
 header .container #main-navbar {
   grid-area: nav;
+  height: 0%;
+  overflow: hidden;
   gap: 20px;
 }
 @media (min-width: 992px) {
   header .container #main-navbar {
+    height: 100%;
     display: flex;
+    align-items: center;
   }
 }
 header .container #theme-mode {
@@ -314,12 +320,12 @@ header .container #signin-up {
     display: block;
   }
 }
-header .container #mobile-menu {
+header .container #mobile-button {
   grid-area: mobile;
   display: block;
 }
 @media (min-width: 992px) {
-  header .container #mobile-menu {
+  header .container #mobile-button {
     display: none;
   }
 }
