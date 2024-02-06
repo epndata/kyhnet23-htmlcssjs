@@ -1,0 +1,52 @@
+@mixin button {
+    display: flex;
+    padding: 8px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.button-primary { 
+    @include button;
+    color: $white;
+    background: $primary;
+    border: none;
+
+    &:hover {
+        text-decoration: none;
+        background: $secondary;
+    }
+}
+
+.mobile-menu { 
+    padding: 18px 22px;
+    font-size: 2em;
+    background: $transparent;
+    border: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+        background: transparent;
+    }
+}
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+  
+
