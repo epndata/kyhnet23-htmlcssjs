@@ -26,3 +26,10 @@ a {
         text-decoration: none;
     }
 }
+
+.more-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @include text-s;
+}

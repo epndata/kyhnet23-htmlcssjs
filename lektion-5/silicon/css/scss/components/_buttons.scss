@@ -36,6 +36,26 @@
 }
 
 
+@mixin circle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    @include shadow-s;
+}
+
+
+.button-circle,
+i.buttion-circle,
+a.buttion-circle {
+   @include circle-button;
+   color: $gray-900;
+   background: $white;
+   border: none;
+   transition: all 0.15s ease-in-out; 
+}
   
 
 

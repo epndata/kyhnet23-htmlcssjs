@@ -1,0 +1,92 @@
+.showcase {
+    background: $gradient-background;
+
+    .container {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr;
+        grid-template-areas:    "image"
+                                "content";
+
+        @include lg {
+            padding-top: 100px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:    "content image";
+        }
+
+        .content {
+            grid-area: content;
+            display: grid;
+            grid-template-rows: auto auto auto 1fr;
+            text-align: center;
+            padding: 10px 0;
+
+            @include lg {
+                text-align: left;
+                width: 80%;
+                padding: 20px 0 50px 0;
+            }
+
+
+            h1 {
+                @include h2;
+
+                @include lg {
+                    @include d4;
+                }
+            }
+
+            p {
+                @include text-lg;
+                margin: 10px 0;
+            }
+
+            .appstores {
+                margin-top: 30px;
+                display: grid;
+                gap: 20px;
+                justify-content: center;
+
+                @include lg {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+
+            .more-link {
+                margin: 20px 0;
+                align-self: flex-end;
+                justify-content: center;
+
+                @include lg {
+                    justify-content: flex-start;
+                }
+
+                i {
+                    display: none;
+                    
+                    @include lg {
+                        display: flex;
+                    }
+                }
+            }
+        }
+
+        img {
+            grid-area: image;
+            display: flex;
+            justify-self: center;
+            width: 80%;
+
+            @include lg {
+                width: 100%;
+                justify-self: flex-end;
+            }
+        }
+    }
+}
