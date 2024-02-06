@@ -1,0 +1,59 @@
+header {
+    
+    .container {
+        display: grid;
+        align-items: center;
+
+        gap: 50px;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:    "logo mobile"
+                                "nav nav";
+
+        @include lg {
+            gap: 50px;
+            grid-template-columns: auto 1fr auto auto;
+            grid-template-areas: "logo nav switch signin";
+        }
+
+        #logo {
+            grid-area: logo;
+        }
+    
+        #main-navbar {
+            grid-area: nav;
+            // display: none;
+            gap: 20px;
+
+            @include lg {
+                display: flex;
+            }
+        }
+    
+        #theme-mode {
+            grid-area: switch;
+            display: none;
+
+            @include lg {
+                display: block;
+            }
+        }
+    
+        #signin-up {
+            grid-area: signin;
+            display: none;
+
+            @include lg {
+                display: block;
+            }
+        }
+    
+        #mobile-menu {
+            grid-area: mobile;
+            display: block;
+
+            @include lg {
+                display: none;
+            }
+        }
+    }
+}

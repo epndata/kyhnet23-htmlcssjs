@@ -4,14 +4,11 @@ html, body {
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     height: 100dvh;
+    grid-template-rows: auto 1fr auto; 
 }
 
-main {
-    flex: 1;
-}
 
 .text-lead {
     @include text-lead;
