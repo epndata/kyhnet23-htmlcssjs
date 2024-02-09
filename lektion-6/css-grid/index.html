@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a041cc045c.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    
+    <div class="parent">
+        
+        
+        <header id="header">
+            <div id="logo">LOGO</div>
+
+            <nav id="navbar">
+                <a href="#">link-1</a>
+                <a href="#">link-2</a>
+                <a href="#">link-3</a>
+                <a href="#">link-4</a>
+                <a href="#">link-5</a>
+                <a href="#">link-6</a>
+                <a href="#">link-7</a>
+                <a href="#">link-8</a>
+            </nav>
+
+            <button onclick="toggleMenu()"><i class="fa-regular fa-bars"></i></button>     
+        </header>
+
+
+
+        <main id="main">
+            <h1>Väkommen</h1>
+            <div style="height: 1000px"></div>
+        </main>
+        <footer id="footer">
+            &copy; 2024 EPN Sverige AB. Alla rättigheter reserverade.
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-x"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+<script>
+    const toggleMenu = () => {
+        const element = document.getElementById('navbar')
+        if (element.style.display === "none")
+            element.style.display = "block";
+        else 
+            element.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
