@@ -69,7 +69,7 @@ header {
             grid-area: theme-mode;
             display: none;
 
-            @include lg {
+            @include md {
                 display: block;
             }
         }

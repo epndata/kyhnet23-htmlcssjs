@@ -194,13 +194,14 @@ a:hover {
   border-radius: 6px;
   text-align: center;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #f2f2f2;
   background: #6366F1;
   border: none;
 }
 .btn-theme:hover {
   text-decoration: none;
-  background: #C240D8;
+  background: #4647a3;
+  color: #f2f2f2;
 }
 
 .mobile-menu {
@@ -223,10 +224,10 @@ a.buttion-circle {
   border-radius: 50%;
   height: 44px;
   width: 44px;
-  background: #FFFFFF;
+  background: #f2f2f2;
   box-shadow: 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03), 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06);
   color: #0B0F19;
-  background: #FFFFFF;
+  background: #f2f2f2;
   border: none;
   transition: all 0.15s ease-in-out;
 }
@@ -258,7 +259,7 @@ a.buttion-circle {
 }
 .theme-switch-wrapper .theme-switch input:checked + .slider:before {
   transform: translateX(26px);
-  background-color: #FFFFFF;
+  background-color: #f2f2f2;
 }
 .theme-switch-wrapper .theme-switch .slider {
   position: absolute;
@@ -355,7 +356,7 @@ header .container #theme-mode {
   grid-area: theme-mode;
   display: none;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header .container #theme-mode {
     display: block;
   }
