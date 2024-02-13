@@ -181,7 +181,8 @@ h6, .h6 {
   grid-template-rows: auto 1fr auto;
 }
 
-a {
+a,
+.form-link {
   line-height: 160%;
   font-weight: 400;
   color: #565973;
@@ -189,8 +190,10 @@ a {
   color: #6366F1;
   text-decoration: none;
   transition: all 0.25s ease-in-out;
+  font-weight: 500;
 }
-a:hover {
+a:hover,
+.form-link:hover {
   text-decoration: underline;
 }
 
@@ -386,13 +389,6 @@ form {
   display: grid;
   gap: 10px;
 }
-form a {
-  font-weight: 500;
-}
-form a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid;
-}
 form .input-group label {
   width: 100%;
   font-weight: 700;
@@ -545,4 +541,51 @@ footer .container .social-media {
 }
 #signup form .content #form-terms {
   grid-area: terms;
+}
+
+#signin {
+  height: 100%;
+}
+#signin .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#signin form {
+  padding: 0 15px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #signin form {
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  #signin form {
+    width: 45%;
+  }
+}
+#signin form .content {
+  display: grid;
+  gap: 20px;
+}
+#signin form .forgot {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#signin form .external-auth {
+  text-align: center;
+}
+#signin form .external-auth p {
+  font-weight: 700;
+}
+#signin form .external-auth .social-auth {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#signin form .external-auth .social-auth button {
+  flex: 1;
 }
