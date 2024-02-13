@@ -132,29 +132,3 @@
         }
     }
 }
-
-.btn-social {
-    @include text-xl;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    width: 44px;
-    height: 44px;
-    background-color: $gray-200;
-    color: $gray-800;
-
-    &:hover {
-        text-decoration: none;
-        background: $gray-700;
-        color: $white;
-    } 
-}
-
-.account-buttons {
-
-    img {
-        height: 44px;
-        width: auto;
-    }
-}
