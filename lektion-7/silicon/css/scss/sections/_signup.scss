@@ -17,17 +17,27 @@
         }
 
         @include lg {
-            width: 55%;
+            width: 50%;
         }
 
         .content {
             display: grid;
             gap: 20px;
-            grid-template-areas:    "firstname lastname"
-                                    "email email"
-                                    "password password"
-                                    "confirm confirm"
-                                    "terms terms";
+            grid-template-columns: 1fr;
+            grid-template-areas:    "firstname"
+                                    "lastname"
+                                    "email "
+                                    "password"
+                                    "confirm"
+                                    "terms";
+            @include md {
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:    "firstname lastname"
+                                        "email email"
+                                        "password password"
+                                        "confirm confirm"
+                                        "terms terms";
+            }
 
             #form-firstname     { grid-area: firstname; }
             #form-lastname      { grid-area: lastname; }
