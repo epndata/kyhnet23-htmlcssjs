@@ -1,0 +1,35 @@
+﻿@model SignUpViewModel
+
+<form method="post" asp-action="SignUp" asp-controller="Auth" novalidate>
+    <div class="mb-3">
+        <label asp-for="Form.FirstName" class="form-label"></label>
+        <input asp-for="Form.FirstName" class="form-control" />
+        <span asp-validation-for="Form.FirstName"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.LastName" class="form-label"></label>
+        <input asp-for="Form.LastName" class="form-control" />
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.Email" class="form-label"></label>
+        <input asp-for="Form.Email" class="form-control" />
+        <span asp-validation-for="Form.Email"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.Password" class="form-label"></label>
+        <input asp-for="Form.Password" class="form-control" />
+        <span asp-validation-for="Form.Password"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.ConfirmPassword" class="form-label"></label>
+        <input asp-for="Form.ConfirmPassword" class="form-control" />
+        <span asp-validation-for="Form.ConfirmPassword"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.PhoneNumber" class="form-label"></label>
+        <input asp-for="Form.PhoneNumber" class="form-control" />
+        <span asp-validation-for="Form.PhoneNumber"></span>
+    </div>
+    <button type="submit">REGISTRERA</button>
+</form>
