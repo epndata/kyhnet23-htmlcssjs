@@ -1,0 +1,35 @@
+.card {
+    margin-bottom: 10px;
+}
+.heading {
+    position: relative;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading i {
+    position: absolute;
+    right: 10px;
+    height: 36px;
+    width: 36px;
+    background-color: #F3F6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.heading button {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    z-index: 10;
+    text-align: left;
+}
+i.active {
+    background-color: #6366F1 !important;
+    color: white;
+}
