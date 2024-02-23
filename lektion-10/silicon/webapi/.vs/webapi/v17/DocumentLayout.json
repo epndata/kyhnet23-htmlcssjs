@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7493119-6574-4DFB-94BE-B98FB17C1E41}|WebApi\\WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\silicon\\webapi\\webapi\\store\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7493119-6574-4DFB-94BE-B98FB17C1E41}|WebApi\\WebApi.csproj|solutionrelative:webapi\\store\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7493119-6574-4DFB-94BE-B98FB17C1E41}|WebApi\\WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\silicon\\webapi\\webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7493119-6574-4DFB-94BE-B98FB17C1E41}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7493119-6574-4DFB-94BE-B98FB17C1E41}|WebApi\\WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\silicon\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7493119-6574-4DFB-94BE-B98FB17C1E41}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T12:19:28.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\WebApi\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\WebApi\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T12:09:40.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppState.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\WebApi\\Store\\AppState.cs",
+              "RelativeDocumentMoniker": "WebApi\\Store\\AppState.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\silicon\\webapi\\WebApi\\Store\\AppState.cs",
+              "RelativeToolTip": "WebApi\\Store\\AppState.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAYwHMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T12:08:49.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
