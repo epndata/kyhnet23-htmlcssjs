@@ -14,5 +14,22 @@ const handleSubmit = (e) => {
             phoneNumber : e.target['phoneNumber'].value,
         }
 
+        fetch('https://localhost:7261/api/users', {
+            method: 'post',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(user)   
+        })
+        .then(res => {
+            if (res.status === 201)
+                console.log('user was created successfully.')
+
+            if (res.status === 409)
+                console.log('user with the same email address already exists.')
+
+            if (res.status === 400)
+                console.log('Incorrect form data was submitted.')
+        })
     }
 }

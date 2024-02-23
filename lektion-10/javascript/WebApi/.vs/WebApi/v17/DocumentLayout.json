@@ -3,12 +3,34 @@
   "WorkspaceRootPath": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_HTML_CSS_JS_LEKTION_10_JAVASCRIPT_WEBAPI_DATA_LOCAL_DATABASE.MDF/True/SqlTable/dbo.Addresses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_HTML_CSS_JS_LEKTION_10_JAVASCRIPT_WEBAPI_DATA_LOCAL_DATABASE.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\factories\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:factories\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\factories\\addressfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:factories\\addressfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +40,102 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Entities\\UserEntity.cs",
-              "RelativeDocumentMoniker": "Entities\\UserEntity.cs",
-              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Entities\\UserEntity.cs",
-              "RelativeToolTip": "Entities\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T09:58:54.987Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Addresses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_HTML_CSS_JS_LEKTION_10_JAVASCRIPT_WEBAPI_DATA_LOCAL_DATABASE.MDF/True/SqlTable/dbo.Addresses.sql",
+              "ToolTip": "dbo.Addresses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-02-23T10:59:49.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_HTML_CSS_JS_LEKTION_10_JAVASCRIPT_WEBAPI_DATA_LOCAL_DATABASE.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-02-23T10:59:36.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "Models\\SignUpModel.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "Models\\SignUpModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:46:17.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:43:41.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:35:51.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressFactory.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Factories\\AddressFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\AddressFactory.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Factories\\AddressFactory.cs",
+              "RelativeToolTip": "Factories\\AddressFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:28:27.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Factories\\UserFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\UserFactory.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Factories\\UserFactory.cs",
+              "RelativeToolTip": "Factories\\UserFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T10:22:02.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T09:43:35.314Z",
               "EditorCaption": ""
