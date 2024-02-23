@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\repositories\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:repositories\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|c:\\projects\\html-css-js\\lektion-10\\javascript\\webapi\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEEFA3-A7F7-453E-94EF-C4B7C1EEB4E2}|WebApi.csproj|solutionrelative:entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Repo.cs",
-              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Repositories\\Repo.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repo.cs",
-              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Repositories\\Repo.cs",
-              "RelativeToolTip": "Repositories\\Repo.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAYwDYAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "Entities\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T09:23:21.085Z",
+              "WhenOpened": "2024-02-23T09:58:54.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Projects\\html-css-js\\lektion-10\\javascript\\WebApi\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T09:43:35.314Z",
               "EditorCaption": ""
             }
           ]

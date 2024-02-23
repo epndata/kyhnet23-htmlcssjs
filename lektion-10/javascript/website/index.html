@@ -9,6 +9,50 @@
 </head>
 <body>
     
+    <div class="container">
+        <form onsubmit="handleSubmit(event)" method="post" class="mt-5" novalidate>
+            <div class="mb-3">
+                <label class="form-label">First name</label>
+                <input required id="firstName" name="firstName" type="text" placeholder="Enter first name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Last name</label>
+                <input required id="lastName" name="lastName" type="text" placeholder="Enter last name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Street name</label>
+                <input required id="streetName" name="streetName" type="text" placeholder="Enter street name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Postal code</label>
+                <input required id="postalCode" name="postalCode" type="text" placeholder="Enter postal code" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">City</label>
+                <input required id="city" name="city" type="text" placeholder="Enter city" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email address</label>
+                <input required id="email" name="email" type="email" placeholder="Enter email address" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input required id="password" name="password" type="password" placeholder="Enter password" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Confirm password</label>
+                <input required id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirm password" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Phone number (optional)</label>
+                <input id="phoneNumber" name="phoneNumber" type="text" placeholder="Enter phone number (optional)" class="form-control">
+            </div>
+            <div class="d-grid mt-5">
+                <button type="submit" class="btn btn-secondary">Sign up</button>
+            </div>
+        </form>
+    </div>
+
     
     
     <script src="https://kit.fontawesome.com/a041cc045c.js" crossorigin="anonymous"></script>

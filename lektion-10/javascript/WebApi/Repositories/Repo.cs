@@ -73,4 +73,15 @@ public abstract class Repo<TEntity>(DataContext context) where TEntity : class
         catch { }
         return false;
     }
+
+    public virtual async Task<bool> ExistsAsync(Expression<Func<TEntity, bool>> predicate)
+    {
+        try
+        {
+            var result = await _context.Set<TEntity>().AnyAsync(predicate);
+            return result;
+        }
+        catch { }
+        return false;
+    }
 }
