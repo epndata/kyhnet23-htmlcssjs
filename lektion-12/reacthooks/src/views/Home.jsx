@@ -2,8 +2,6 @@ import React, { useEffect, useState, useRef } from 'react'
 import DropDownButton from './components/DropDownButton'
 
 /* 
-    useState         Application State Management [toggleMenu, show/hide, courses, user]
-    useEffect       Hantera omrenderingar av en komponent (constructor)
     
     useParams       Hämta ut paramerar från url ?firstName=Hans&lastName=Mattin-Lassei
     useContext      En mer avancerad variant av Application State Management

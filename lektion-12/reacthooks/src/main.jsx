@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './assets/css/main.min.css'
 import Home from './views/Home'
 import Error from './views/Error'
+import News from './views/News'
+import NewsDetails from './views/NewsDetails'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -11,6 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/news/:id" element={<NewsDetails />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
