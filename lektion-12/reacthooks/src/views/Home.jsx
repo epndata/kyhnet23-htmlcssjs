@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
+import DropDownButton from './components/DropDownButton'
 
 /* 
     useState         Application State Management [toggleMenu, show/hide, courses, user]
@@ -12,25 +13,34 @@ import React, { useEffect, useRef, useState } from 'react'
 */ 
 
 const Home = () => {
-    const [count, setCount] = useState(0) 
-    const refCount = useRef(0)
+    const url = 'https://kyhnet23-assignment.azurewebsites.net/api/specialists'
+    const [specialists, setSpecialists] = useState([])
+    const loaded = useRef(false)
+    
+    useEffect(() => {
+        if (!loaded.current) {
+            setSpecialists([])
+        
+            const fetchData = async () => {
+                const result = await fetch(url)
+                const data = await result.json()
+                
+                for (let item of data) {
+                    setSpecialists(current => [...current, { value: item.id, text: `${item.firstName} ${item.lastName}` }])
+                }
+            }
 
-    const changeState = () => {
-        setCount (count + 1)
-        console.log(count)
-    }
+            fetchData()
+            loaded.current = true
+        }
+    }, [])
+
 
     return (
         <>
             <div className="container mt-4">
-                <p>State: {count}</p>
-                <button onClick={() => setCount(count + 1)}>KLICKA HÄR</button>
-            </div>
-
-            <div className="container mt-4">
-                <p>Ref: {refCount.current}</p>
-                <button onClick={() => {refCount.current = refCount.current + 1}}>KLICKA HÄR</button>
-            </div>
+                <DropDownButton options={specialists} />
+           </div>
         </>
     )
 }
