@@ -38,3 +38,21 @@
   .dropdown-option:hover {
     background-color: #ddd;
   }
+
+  footer {
+    padding: 20px 0;
+    .container {
+      text-align: center;
+
+      .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+
+    }
+
+  }

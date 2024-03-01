@@ -2,11 +2,9 @@ import React, { useEffect, useState, useRef } from 'react'
 import DropDownButton from './components/DropDownButton'
 
 /* 
-    
-    useParams       Hämta ut paramerar från url ?firstName=Hans&lastName=Mattin-Lassei
-    useContext      En mer avancerad variant av Application State Management
-
     useLocation     Hanterar browser history och sökvägsinformation
+    
+    useContext      En mer avancerad variant av Application State Management
     useNavigate     hanterar navigering inom sidan
 */ 
 
