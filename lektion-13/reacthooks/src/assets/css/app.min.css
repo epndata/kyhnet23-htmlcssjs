@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form .input-group {
+  margin-bottom: 10px;
+}
+form .input-group label {
+  display: block;
+}
+form .input-group input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+}
