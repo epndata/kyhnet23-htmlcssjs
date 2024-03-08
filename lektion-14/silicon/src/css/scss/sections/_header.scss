@@ -1,7 +1,6 @@
 header {
  
     &.shadow {
-        box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 0.6);
-        border: 1px solid gray;
+        border-bottom: 1px solid var(--color-gray-400);
     }
 }

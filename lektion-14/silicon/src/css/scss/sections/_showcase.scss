@@ -1,0 +1,97 @@
+.showcase {
+    padding-bottom: 50px;
+    position: relative;
+
+    @include xxl {
+        padding-bottom: 120px;
+    }
+
+    .container {
+        .showcase-image {
+            grid-area: image;
+            position: absolute;
+            width: 400px;
+            right: 0;
+
+            @include md {
+                width: 460px;
+            }
+
+            @include lg {
+                width: 550px;
+            }
+
+            @include xl {
+                width: 630px;
+            }
+
+            @include xxl {
+                width: 900px;
+            }
+        }
+
+        .content {
+            padding-top: 350px;
+            text-align: center;
+
+            @include md {
+                padding-top: 20px;
+                text-align: left;
+                width: 50%;
+            }
+
+            @include xl {
+                padding-top: 20px;
+                text-align: left;
+                width: 45%;
+            }
+
+            @include xxl {
+                padding-top: 100px;
+                width: 40%;
+            }
+
+            h1 {
+                font-size: 38px;
+
+                @include xl {
+                    font-size: 52px;
+
+                }
+                @include xxl {
+                    font-size: 56px;
+                }
+            }
+
+            p {
+                padding-bottom: 30px;
+
+                @include xl {
+                    padding-bottom: 40px;
+                }
+            }
+
+            .largest-brands {
+                display: none;
+
+                h6 {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+
+                @include lg {
+                    display: block;
+                }
+
+                @include xxl {
+                    margin-top: 140px;
+                }
+
+                .brands {
+                    display: flex;
+                    gap: 30px;
+                }
+            }
+        }
+    }
+}

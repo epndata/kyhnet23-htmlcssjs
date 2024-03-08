@@ -1,6 +1,12 @@
 @import './scss/cores/media';
-@import './scss/cores/colors';
 @import './scss/cores/fonts';
+@import './scss/cores/colors';
 @import './scss/cores/common';
+@import './scss/cores/typography';
+
+@import './scss//components/buttons';
+@import './scss//components/container';
+
 
 @import './scss/sections/header';
+@import './scss/sections/showcase';

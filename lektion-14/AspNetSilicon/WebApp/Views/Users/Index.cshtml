@@ -1,0 +1,9 @@
+﻿@model IEnumerable<UserEntity>
+
+<a asp-controller="Users" asp-action="Create">CREATE USER</a>
+<div>
+    @foreach(var user in Model)
+    {
+        <div>@user.FirstName @user.LastName <@user.Email></div>
+    }
+</div>

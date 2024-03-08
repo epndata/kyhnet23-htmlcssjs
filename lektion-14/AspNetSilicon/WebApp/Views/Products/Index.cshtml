@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ProductEntity>
+
+<a asp-action="Create" asp-controller="Products">CREATE PRODUCT</a>
+<div>
+    @foreach(var product in Model)
+    {
+        <div>@product.Manifacturer @product.Title</div>
+    }
+</div>

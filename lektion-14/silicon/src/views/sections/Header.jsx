@@ -1,8 +1,11 @@
 import React from 'react'
+import { UseAppStore } from '../../stores/AppStore'
 
-const Header = ({displayShadow}) => {
+const Header = () => {
+  const { allowShadow } = UseAppStore()
+
   return (
-    <header className={`${displayShadow ? 'shadow': ''}`}>
+    <header className={`${allowShadow ? 'shadow': ''}`}>
         header
     </header>
   )

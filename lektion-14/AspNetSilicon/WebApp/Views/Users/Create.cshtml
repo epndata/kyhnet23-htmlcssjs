@@ -1,0 +1,17 @@
+﻿@model UserEntity
+
+<form asp-action="Create" asp-controller="Users" method="post">
+    <div>
+        <input asp-for="FirstName" placeholder="Enter your first name" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+    <div>
+        <input asp-for="LastName" placeholder="Enter your last name" />
+        <span asp-validation-for="LastName"></span>
+    </div>
+    <div>
+        <input asp-for="Email" placeholder="Enter your email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <button type="submit">CREATE</button>
+</form>

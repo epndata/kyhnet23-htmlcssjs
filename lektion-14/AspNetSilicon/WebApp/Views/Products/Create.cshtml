@@ -1,0 +1,22 @@
+﻿@model ProductEntity
+
+<form method="post" asp-action="Create" asp-controller="Products">
+    <div>
+        <input asp-for="Title" placeholder="Enter Product Title" />
+        <span asp-validation-for="Title"></span>
+    </div>
+    <div>
+        <input asp-for="Manifacturer" placeholder="Enter Product Manifacturer" />
+        <span asp-validation-for="Manifacturer"></span>
+    </div>
+    <div>
+        <input asp-for="Price" placeholder="Enter Product Price" />
+        <span asp-validation-for="Price"></span>
+    </div>
+    <div>
+        <textarea asp-for="Description" placeholder="Enter Product Description"></textarea>
+        <span asp-validation-for="Description"></span>
+    </div>
+    <button type="submit">CREATE</button>
+
+</form>
