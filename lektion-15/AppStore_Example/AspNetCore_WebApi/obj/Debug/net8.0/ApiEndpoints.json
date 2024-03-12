@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "AspNetCore_WebApi.Controllers.ContactsController",
+    "Method": "HandleContactRequest",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AspNetCore_WebApi.Controllers.UserRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

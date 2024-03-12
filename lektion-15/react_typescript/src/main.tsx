@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
-import { AppStoreProvider } from './stores/AppStore.jsx'
+import AppStoreProvider from './stores/AppStore.tsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
     <AppStoreProvider>
-      <App />
+    <App />
     </AppStoreProvider>
     </BrowserRouter>
   </React.StrictMode>,
